@@ -29,9 +29,9 @@ dispatcher.onGet("/", function(req, res) {
     res.end('<h1>Hey, this is the homepage of your server</h1>');
 });
 
-dispatcher.onGet("/welcome", function(req, res) {
-    res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.end('Welcome homepage');
+dispatcher.onGet("/Eileen", function(req, res) {
+    res.writeHead(200, {'Content-Type': 'text/html'});
+    res.end('I will protect you from evilJoe');
 });
 
 dispatcher.onError(function(req, res) {
