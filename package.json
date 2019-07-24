@@ -1,5 +1,5 @@
 {
-  "name": "papa-node-hello-000",
+  "name": "i2workshopnode",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johnpapa/node-hello.git"
+    "url": "git+https://github.com/jbalsamo/node-hello.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/johnpapa/node-hello/issues"
-  },
-  "homepage": "https://github.com/johnpapa/node-hello#readme"
+  "homepage": "",
+  "dependencies": {
+    "httpdispatcher": "^2.1.2"
+  }
 }
