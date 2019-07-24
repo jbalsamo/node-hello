@@ -34,6 +34,11 @@ dispatcher.onGet("/welcome", function(req, res) {
     res.end('Welcome homepage');
 });
 
+dispatcher.onGet("/evilJoe", function(req, res) {
+    res.writeHead(200, {'Content-Type': 'text/html'});
+    res.end('<h1>All your bases are mine.</h1>');
+});
+
 dispatcher.onError(function(req, res) {
     res.writeHead(404);
     res.end("Error, the URL doesn't exist");
